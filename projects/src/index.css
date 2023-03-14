@@ -17,10 +17,8 @@ body {
 
 .App {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 
 .sqaure {
@@ -47,7 +45,6 @@ label {
 }
 
 input[type="text"] {
-  margin-top: 0.5rem;
   padding: 0, 25rem;
   height: 40px;
   width: 100%;
